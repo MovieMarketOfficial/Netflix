@@ -2078,7 +2078,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/Team_Netflix/33")
+            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/moviemarket_official/369")
        ],[
             InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/movies_group9"),
             InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/moviemarket_official")
