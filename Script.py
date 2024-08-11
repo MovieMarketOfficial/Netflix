@@ -57,7 +57,7 @@ class script(object):
 
 ʏᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ʏᴏᴜ ʜᴀᴠᴇ.
 
-<b>᚜ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ ᚛</b>
+<b>( ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ )</b>
 
 ➢ <a href='https://graph.org/file/4a68641b5519cc8dccb45.jpg'>UPI</a>
 
