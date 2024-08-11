@@ -59,7 +59,7 @@ class script(object):
 
 <b>( ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ )</b>
 
-➢ <a href='https://graph.org/file/4a68641b5519cc8dccb45.jpg'>UPI</a>
+<a href='https://graph.org/file/4a68641b5519cc8dccb45.jpg'>UPI</a>
 
 ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ Fᴏʀ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ ɪɴfᴏ
 
