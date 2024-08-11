@@ -3566,11 +3566,10 @@ async def auto_filter(client, msg, spoll=False):
                 cap += f"<b>\n❍ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>• ᴛɪᴛʟᴇ : <code>{search}</code>\n\n• ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n• ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n• ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n• ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title} \n\n</b>"
+            cap = f"🔮𝙏𝙞𝙩𝙡𝙚: {search}\n 𝙔𝙤𝙪𝙧 𝙁𝙞𝙡𝙚𝙨 𝙞𝙨 𝙍𝙚𝙖𝙙𝙮 𝙉𝙤𝙬!!⚡️"
         else:
-            # cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
-            cap = f"<b>• ᴛɪᴛʟᴇ : <code>{search}</code>\n\n• ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n• ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n• ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n• ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title} \n\n</b>"
-            cap+="<b><u>❍ Requested Files 👇</u></b>\n\n"
+            cap = f"🔮𝙏𝙞𝙩𝙡𝙚: {search}\n\n 𝙔𝙤𝙪𝙧 𝙁𝙞𝙡𝙚𝙨 𝙞𝙨 𝙍𝙚𝙖𝙙𝙮 𝙉𝙤𝙬!!✨\n"
+            cap+="<b><u>🎬 Your Movie Files 👇</u></b>\n\n"
             for file in files:
                 cap += f"<b>❍ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
 
