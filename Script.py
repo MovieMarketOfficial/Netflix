@@ -61,7 +61,7 @@ class script(object):
 
 ➢ <a href='https://graph.org/file/4a68641b5519cc8dccb45.jpg'>UPI</a>
 
-ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ғᴏʀ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ ɪɴғᴏ
+ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ Fᴏʀ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ ɪɴfᴏ
 
 <b>ᴄʟɪᴄᴋ ʜᴇʀᴇ - <a href='https://telegram.me/Gurmeey01k'>ᴏᴡɴᴇʀ</a>
 ᴄʟɪᴄᴋ ʜᴇʀᴇ - <a href='https://telegram.me/sewxiy'>Creator</a>
