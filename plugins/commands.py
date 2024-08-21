@@ -72,12 +72,6 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton(text="🏡", callback_data="start"),
-                    InlineKeyboardButton(text="🛡", callback_data="group_info"),
-                    InlineKeyboardButton(text="💳", callback_data="about"),
-                    InlineKeyboardButton(text="💸", callback_data="shortlink_info"),
-                    InlineKeyboardButton(text="🖥", callback_data="main"),
-                ],[
                     InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('• ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='main'),
@@ -99,11 +93,11 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
         m=await message.reply_text("ʜᴇʟʟᴏ ʙᴀʙʏ, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙᴀʙʏ . . .")
         await asyncio.sleep(0.4)
-        await m.edit_text("🎊")
+        await m.edit_text("👨‍💻")
         await asyncio.sleep(0.5)
-        await m.edit_text("⚡")
+        await m.edit_text("🤖")
         await asyncio.sleep(0.5)
-        await m.edit_text("ꜱᴛᴀʀᴛɪɴɢ ʙᴀʙʏ...")
+        await m.edit_text("ꜱᴛᴀʀᴛɪɴɢ...")
         await asyncio.sleep(0.4)
         await m.delete()        
         m=await message.reply_sticker("CAACAgUAAxkBAAECroBmQKMAAQ-Gw4nibWoj_pJou2vP1a4AAlQIAAIzDxlVkNBkTEb1Lc4eBA") 
@@ -151,13 +145,7 @@ async def start(client, message):
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
-                    InlineKeyboardButton(text="🏡", callback_data="start"),
-                    InlineKeyboardButton(text="🛡", callback_data="group_info"),
-                    InlineKeyboardButton(text="💳", callback_data="about"),
-                    InlineKeyboardButton(text="💸", callback_data="shortlink_info"),
-                    InlineKeyboardButton(text="🖥", callback_data="main"),
-                ],[
+        buttons = [ [
                     InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('• ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='main'),
