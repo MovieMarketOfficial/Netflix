@@ -3578,7 +3578,7 @@ async def auto_filter(client, msg, spoll=False):
             url=imdb['url'],
             **locals()
         )
-        if not settings["button"]
+        if not settings["button"]:
             cap+="<b>\n\n<u>❍ Requested Files 👇</u></b>\n"
             for file in files:
                 cap += f"<b>\n❍ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
