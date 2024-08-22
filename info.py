@@ -40,6 +40,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/ccf3cbc4687263ac6
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/2fcac1557d86c72e6aa4a.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/347c1f79f36d3cf14e0f5.jpg'))
 CODE = (environ.get('CODE', 'https://graph.org/file/4a68641b5519cc8dccb45.jpg'))
+REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1c1a3cb814cd719ae3bd3.jpg https://graph.org/file/1a2e64aee3d4d10edd930.jpg")).split() 
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
