@@ -52,7 +52,6 @@ python-decouple
 ytthumb
 YoutubeTags
 beautifulsoup4
-motor
 python-docx
 speedtest
 yt-dlp
@@ -88,7 +87,6 @@ shazamio
 telegraph
 PyPDF2
 pypdf
-pyrogram>=2.0.106
 Faker
 telethon
 sqlalchemy
