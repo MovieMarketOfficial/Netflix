@@ -45,7 +45,6 @@ countryinfo
 python-math
 psutil==5.9.4
 speedtest-cli
-python-dotenv
 python-telegram-bot==12.8
 doodstream
 unshortenit
