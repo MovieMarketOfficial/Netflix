@@ -44,7 +44,7 @@ REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1c1a3cb814cd719a
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
-STREAM_API = (environ.get('STREAM_API', ''))
+STREAM_API = (environ.get('STREAM_API', '42bf6f9e478c4f3248ec71ba33b0e62118e6f761'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/moviemarket_official/335'))
 
 # Command
