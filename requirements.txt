@@ -53,7 +53,6 @@ ytthumb
 YoutubeTags
 beautifulsoup4
 python-docx
-speedtest
 yt-dlp
 python-dateutil
 google-generativeai
